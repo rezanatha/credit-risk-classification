@@ -10,11 +10,10 @@ INPUT FORMAT
     "person_income": 50000, # Annual Income in $
     "person_home_ownership":"RENT", # Home ownership: RENT, MORTGAGE, OWN
     "person_emp_length":2, # How long this person has been employed in years
-    "loan_intent": "MEDICAL", # What the loan is for: EDUCATION, MEDICAL, VENTURE, PERSONAL, DEBTCONSOLIDATION, HOMEIMPROVEMENT
+    "loan_intent": "MEDICAL", # What the loan is for: valid values are EDUCATION, MEDICAL, VENTURE, PERSONAL, DEBTCONSOLIDATION, HOMEIMPROVEMENT
     "loan_grade":"B", # Loan grade: A, B, C,..., G
     "loan_amnt": 10000, # Loan amount in $
     "loan_int_rate": 8.7, # Annual loan interest rate in %
-    "loan_percent_income": 0.2, # Loan percent income in %
     "cb_person_default_on_file":"N", # Has this person been default before? Y, N
     "cb_person_cred_hist_length":"5" # Credit history length in years
 }
