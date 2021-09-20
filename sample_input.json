@@ -1,0 +1,12 @@
+{
+    "person_age": 25,
+    "person_income": 20000,
+    "person_home_ownership": "OWN",
+    "person_emp_length": "null",
+    "loan_intent": "VENTURE",
+    "loan_grade": "A",
+    "loan_amnt": 10000,
+    "loan_int_rate": 9,
+    "cb_person_default_on_file": "N",
+    "cb_person_cred_hist_length": 3
+}
