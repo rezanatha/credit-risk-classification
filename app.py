@@ -37,15 +37,9 @@ def make_predictions():
         result = predict_data(data)
         print(result)
         proba_1 = float(result[:, 1])
-        #output = {
-        #"model":"credit-risk",
-        #"version":"1.0.0",
-        #"score_proba_1": proba_1
-        #}
         output["model"] = "credit-risk"
         output["version"] = "1.0.0"
         output["score_proba_1"] = proba_1
-        #preds.append(output)
         return jsonify(output)
 
 if __name__ == '__main__':
