@@ -55,7 +55,7 @@ cd credit-risk-classification
 pip install -r requirements.txt
 ```
 
-# Usage
+# Usage Guidance
 ### Running the server
 Using cmd or terminal, run the following line in the /credit-risk-classification directory
 ```
